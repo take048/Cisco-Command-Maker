@@ -1,0 +1,23 @@
+# Version: 6.16.0.13 (d16-5-xcode11.4): b75deaf82)
+# [first argument, ignore] # /Library/Frameworks/Xamarin.Mac.framework/Versions/6.16.0.13/lib/mmp/mmp.exe
+/Library/Frameworks/Xamarin.Mac.framework/Versions/6.16.0.13/lib/mmp/mmp.exe \
+	/output:/Users/hobby/Documents/GitHub/Cisco-Command-Maker/bin/Release/ \
+	/name:CiscoCommand \
+	' /profile:Xamarin.Mac,Version=v2.0,Profile=Mobile' \
+	' /arch:x86_64' \
+	' --http-message-handler=HttpClientHandler' \
+	' /minos=10.12' \
+	' /linksdkonly' \
+	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/mscorlib.dll \
+	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/System.Core.dll \
+	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/System.dll \
+	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/Facades/System.Drawing.Common.dll \
+	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/Xamarin.Mac.dll \
+	/root-assembly:/Users/hobby/Documents/GitHub/Cisco-Command-Maker/bin/Release/CiscoCommand.exe \
+	/sdkroot:/Applications/Xcode.app/Contents/Developer \
+	--cache:/Users/hobby/Documents/GitHub/Cisco-Command-Maker/obj/Release/mmp-cache \
+	@/Users/hobby/Documents/GitHub/Cisco-Command-Maker/obj/Release/response-file.rsp \
+	-q \
+	-q \
+	-q \
+	-q \
