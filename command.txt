@@ -1,0 +1,32 @@
+
+configure terminal
+
+hostname RA
+no ip domain-lookup
+enable secret pass1
+banner motd "Authorized Access Only!"
+
+line console 0
+
+password pass2
+login
+logging synchronous
+
+line vty 0 4
+
+password pass3
+login
+logging synchronous
+
+interface S0/0/0
+ip address 192.168.1.1 255.255.255.0
+no shutdown
+
+interface S0/0/1
+ip address 192.168.2.1 255.255.255.0
+no shutdown
+
+exit
+exit
+
+copy running-config startup-config
